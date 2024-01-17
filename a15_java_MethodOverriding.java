@@ -8,6 +8,7 @@ class A{
     }
 }
 class B extends A{
+    // methodOverriding is defining predefined method
     @Override // This will throw Error if Method is not override
     // Same Method with different functions in different classes
     // Changing function of Method of Supper class not its arg or name or access-level(private,public)

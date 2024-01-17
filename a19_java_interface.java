@@ -1,11 +1,16 @@
 package Java;
+//implementing interface( defining similar type of methods without their body )
 interface Phone19{
     void switchOff();
     void switchOn();
 }
+
+// implementing another interface
 interface SmartPhone19{
     void takeSnape();
 }
+
+// class inherited from PhoneModel from a18 and implements both interface
 class Nokia extends PhoneModel implements Phone19,SmartPhone19{
     @Override
     public void switchOff() {

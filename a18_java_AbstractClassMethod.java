@@ -1,11 +1,18 @@
 package Java;
+
+// Defining abstract class and abstract method onside it
+// Abstract Class
 abstract class PhoneModel{
     public void vibrate(){
         System.out.println("VIBRATING....");
     }
+
+    // Abstract Method
     abstract void call();
 }
 
+
+// class inherited from Abstract class
 class Samsung extends PhoneModel{
     @Override
     public void call(){

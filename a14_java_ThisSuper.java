@@ -9,6 +9,7 @@ class ThisSup{
 
 class Sup extends ThisSup{
     public Sup(int y){
+        // super keyword used to access parent class or constructor of parent class
         super(y);
         System.out.println("I AM A DERIVED CLASS CONSTRUCTOR");
     }

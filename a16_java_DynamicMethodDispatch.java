@@ -1,4 +1,6 @@
 package Java;
+// In dynamic Method Dispatch we take reference of parent class and make obj of derived class
+// we can not use methods which is not part of parent class
 class Phone{
     public void Off1(){
         System.out.println("TURNING OFF PHONE....");

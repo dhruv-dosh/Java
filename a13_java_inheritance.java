@@ -15,6 +15,8 @@ class Base{
         System.out.println("I AM OVERLOADED CONSTRUCTOR OF BASE CLASS OF VAL "+a);
     }
 }
+
+//Extend keyword is used to inherit class
 class Derived extends Base{
     String post;
 
@@ -32,7 +34,6 @@ class Derived extends Base{
     }
 
 }
-
 
 class Derived2 extends Derived{
     public Derived2(int x,int y,int z){

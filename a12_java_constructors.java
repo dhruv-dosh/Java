@@ -4,11 +4,15 @@ class Employee{
     int age;
     int salary;
     String name;
+
+    // constructor is function same name as function
     public Employee(){
         name = "Employee";
         age = 20;
         salary= 150000;
     }
+
+    // constructor with different arguments is constructor overloading
     public Employee(String nam){
         name = nam;
         age = 20;
