@@ -1,7 +1,9 @@
 package Java;
 
-public class a23_java_InterpretedCompiled {
+public class a23_java_interpretedCompiled {
     public static void main(String[] args) {
+
+
         /*
         when language has a line by line execution then it is an interpreted language
 
@@ -19,5 +21,6 @@ public class a23_java_InterpretedCompiled {
          First make a name.java file and then compile it on terminal from command (javac name.java)
          then run it through interpreting using (java name.class)
          */
+
     }
 }
