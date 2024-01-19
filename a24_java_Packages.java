@@ -20,7 +20,7 @@ public class a24_java_Packages {
 
         /*
         How to create your own package and use it
-        -- In Vs code --
+        -- In a25 files --
          */
     }
 }

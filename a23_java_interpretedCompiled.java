@@ -22,5 +22,13 @@ public class a23_java_interpretedCompiled {
          then run it through interpreting using (java name.class)
          */
 
+        /*
+        In Terminal we use this two commends to interprete and compile
+          javac: java compiler
+          "javac className" Compiles the file
+          interpretor : java
+          "java className" -> run class className
+         */
+
     }
 }
