@@ -1,25 +1,25 @@
 package Java;
 //Using Threads By Extending Thread class
-//class MultiThr1 extends Thread{
-//    @Override
-//    public void run(){
-//        int i=0;
-//        while (i<100){
-//           System.out.println("i am cooking right now :");
-//           i++;
-//        }
-//    }
-//}
-//class MultiThr2 extends Thread{
-//    @Override
-//    public void run(){
-//        int i=0;
-//        while (i<100){
-//            System.out.println("I AM DANCING RIGHT NOW :");
-//            i++;
-//        }
-//    }
-//}
+class MultiThr1 extends Thread{
+    @Override
+    public void run(){
+        int i=0;
+        while (i<100){
+           System.out.println("i am cooking right now :");
+           i++;
+        }
+    }
+}
+class MultiThr2 extends Thread{
+    @Override
+    public void run(){
+        int i=0;
+        while (i<100){
+            System.out.println("I AM DANCING RIGHT NOW :");
+            i++;
+        }
+    }
+}
 
 //Creating Java Thread Using Runnable interface
 class Multithre3 implements Runnable{
@@ -74,10 +74,10 @@ public class a27_java_Multithreding {
          */
 
         //USING MULTITHREADING CONCEPT EXTENDING THREAD
-//        MultiThr1 t1 = new MultiThr1();
-//        MultiThr2 t2 = new MultiThr2();
-//        t1.start();
-//        t2.start();
+        MultiThr1 t1 = new MultiThr1();
+        MultiThr2 t2 = new MultiThr2();
+        t1.start();
+        t2.start();
 
         //USING MULTITHREADING CONCEPT BY IMPLIMENTING RUNNABLE INTERFACE
         Multithre3 bull1 = new Multithre3();
