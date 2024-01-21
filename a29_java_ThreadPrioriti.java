@@ -19,6 +19,11 @@ public class a29_java_ThreadPrioriti {
         MultiThr29 t2 = new MultiThr29("DOSHI");
         MultiThr29 t1 = new MultiThr29("JAIN");
         t1.setPriority(Thread.MAX_PRIORITY);
+        t2.setPriority(Thread.NORM_PRIORITY);
+        t3.setPriority(Thread.MIN_PRIORITY);
+        System.out.println(t1.getPriority());// Max priority is 10
+        System.out.println(t2.getPriority());// Max priority is 5
+        System.out.println(t3.getPriority());// Max priority is 1
         System.out.println(t1.getName());
         System.out.println(t2.getName());
         System.out.println(t3.getName());

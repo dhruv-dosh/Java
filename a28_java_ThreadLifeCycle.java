@@ -44,13 +44,16 @@ public class a28_java_ThreadLifeCycle {
         System.out.println("Id of this Thread is : "+obj1.getId());//USING METHOD OF THREAD
         System.out.println("Name of given thread is : "+obj1.getName());
         obj1.start();
+        System.out.println(Thread.currentThread().getState());//This is how we get reference of current
+                                                                         // thread
+
 
         Mythread obj2 = new Mythread();
         Thread gun = new Thread(obj2,"Doshi");
         gun.start();
         System.out.println("Id of this Thread is : "+gun.getId());//USING METHOD OF THREAD
         System.out.println("Name of given thread is : "+gun.getName());
-
+        System.out.println(gun.getState()); // gives the state runnable,terminated,etc
     }
 
 
