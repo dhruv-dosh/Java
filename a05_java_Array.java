@@ -1,6 +1,6 @@
 //practice set array
 import java.util.Scanner;
-public class a05_java {
+public class a05_java_Array {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         //////////////////////practice problem 1//////////////////////
