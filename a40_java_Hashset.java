@@ -8,7 +8,7 @@ public class a40_java_Hashset {
         l1.add(4);
         l1.add(6);
         l1.add(8);
-        l1.add(5);
+        l1.add(7);
         System.out.println(l1);
     }
 }
