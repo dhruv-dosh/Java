@@ -1,5 +1,12 @@
 package Java;
 //implementing interface( defining similar type of methods without their body )
+/*
+An Interface in Java programming language is defined as an abstract type used to specify the behavior
+of a class. An interface in Java is a blueprint of a behavior. A Java interface contains static
+constants and abstract methods
+ */
+
+//It is used to achieve abstraction and multiple inheritances in java.
 interface Phone19{
     void switchOff();
     void switchOn();
@@ -32,7 +39,7 @@ class Nokia extends PhoneModel implements Phone19,SmartPhone19{
         System.out.println("Taking Snape......");
     }
 }
-public class a19_java_interface {
+public class xa19_java_interface {
     public static void main(String[] args) {
          Nokia n21 = new Nokia();
          n21.switchOff();
