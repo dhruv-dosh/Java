@@ -2,7 +2,7 @@ package Java;
 
 import java.util.Date;
 
-public class a41_java_DateAndThime {
+public class a41_java_DateAndTime {
     public static void main(String[] args) {
         /*
         java stores time in millisec since 1 jan 1970.

@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class a03_java_Scanner {
     public static void main(String[] args) {
         //taking input
+        //*IF WE USE NEXTLINE JUST AFTER NEXTINT NEXT LINE WILL TAKE BLANK SPACE AS INPUT
+        // (NEXTINT DO NOT TAKE NEXT LINE CHAR AND IT WILL SAVE IT IN BUFFER)
         Scanner s= new Scanner(System.in);
         System.out.println("enter first number :");
         int a = s.nextInt();
