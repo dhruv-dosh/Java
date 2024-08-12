@@ -1,3 +1,5 @@
+package Java;
+
 public class a06_java_method {
     static int sum(int x ,int y){
         return x+y;
