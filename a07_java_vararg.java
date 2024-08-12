@@ -1,3 +1,5 @@
+package Java;
+
 public class a07_java_vararg {
     //here vararg means we can use infinite numbers of var in method and int a is for one necessary var
      static int sum(int a,int ...arr){
