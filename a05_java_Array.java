@@ -1,4 +1,4 @@
-//practice set array
+package Java;//practice set array
 import java.util.Scanner;
 public class a05_java_Array {
     public static void main(String[] args) {
