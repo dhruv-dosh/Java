@@ -1,3 +1,5 @@
+package Java;
+
 public class a09_java_pqmethod {
     /////////////////practice question 1///////////////////////
     static void table(int n){
