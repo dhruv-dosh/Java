@@ -1,4 +1,4 @@
-package com.company;
+package Java;
 import java.util.Scanner;
 
 class Employ{
