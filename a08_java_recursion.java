@@ -1,3 +1,5 @@
+package Java;
+
 public class a08_java_recursion {
     static int factorial(int a){
         //function calling itself is called recursion
