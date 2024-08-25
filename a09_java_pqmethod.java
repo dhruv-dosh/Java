@@ -2,7 +2,7 @@ package Java;
 
 public class a09_java_pqmethod {
     /////////////////practice question 1///////////////////////
-    static void table(int n){
+    public static void table(int n){
         for (int i=1;i<=10;i++){
             System.out.println(n+" * "+i+" = "+n*i);
         }
