@@ -1,7 +1,12 @@
 package Java;
-
+/*
+Abstract class: is a restricted class that cannot be used to create objects
+(to access it, it must be inherited from another class). Abstract method: can only be used in an
+abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
+ */
 // Defining abstract class and abstract method onside it
 // Abstract Class
+// It is used to achieve abstraction which is one of the pillars of Object Oriented Programming(OOP)
 abstract class PhoneModel{
     public void vibrate(){
         System.out.println("VIBRATING....");
