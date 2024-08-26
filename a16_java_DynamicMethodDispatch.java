@@ -10,6 +10,8 @@ class Phone{
     }
 }
 class SmartPhone extends Phone{
+    @Override //Overriding methods will be discussed in Interfaces and Inheritance.
+              // While it is not required to use this annotation when overriding a method
     public void On(){
         System.out.println("TURNING ON SMARTPHONE....");
     }
