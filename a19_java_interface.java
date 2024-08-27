@@ -7,6 +7,20 @@ constants and abstract methods
  */
 
 //It is used to achieve abstraction and multiple inheritances in java.
+// variable values in interface is final (immutable)
+/*
+DIFFERENCE
+ABSTRACT
+1.class can inherit from only one abstract class.
+2.Can have both implemented and abstract methods.
+3.Methods and properties can have any access modifier (public, protected, private).
+
+INTERFACE
+1.A class can implement multiple interfaces.
+2.Methods are abstract by default; Java 8, can have default and static methods
+3.Methods and properties are implicitly public.
+
+ */
 interface Phone19{
     void switchOff();
     void switchOn();
@@ -39,7 +53,7 @@ class Nokia extends PhoneModel implements Phone19,SmartPhone19{
         System.out.println("Taking Snape......");
     }
 }
-public class xa19_java_interface {
+public class a19_java_interface {
     public static void main(String[] args) {
          Nokia n21 = new Nokia();
          n21.switchOff();
