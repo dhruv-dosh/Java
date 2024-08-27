@@ -9,8 +9,8 @@ public class a24_java_Packages {
         packages is used to avoid name conflicts
 
         there are two type of packages
-        user defined / custom packages -> import java.util.Scanner
-        built in / java api packages -> package Java in this file
+        user defined / custom packages -> package Java in this file
+        built in / java api packages -> import java.util.Scanner
          */
         /*
         Java package use
