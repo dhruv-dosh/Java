@@ -8,7 +8,7 @@ class Parent26{
     }
 
     protected void meth4(){
-        System.out.println("I can be used by class , packages and subclass(of another package) ");
+        System.out.println("I can be used by class , packages and subclass(of this and another package) ");
     }
     public void meth3(){
         System.out.println("I CAN BE USED ANYWHERE");
