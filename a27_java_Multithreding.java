@@ -5,7 +5,7 @@ class MultiThr1 extends Thread{
     public void run(){
         int i=0;
         while (i<100){
-           System.out.println("i am cooking right now :");
+           System.out.println("i am thread 1111111111 :");
            i++;
         }
     }
@@ -15,7 +15,7 @@ class MultiThr2 extends Thread{
     public void run(){
         int i=0;
         while (i<100){
-            System.out.println("I AM DANCING RIGHT NOW :");
+            System.out.println("I AM thread 2222222222 :");
             i++;
         }
     }
@@ -76,15 +76,19 @@ public class a27_java_Multithreding {
         //USING MULTITHREADING CONCEPT EXTENDING THREAD
         MultiThr1 t1 = new MultiThr1();
         MultiThr2 t2 = new MultiThr2();
-        t1.start();
-        t2.start();
+
 
         //USING MULTITHREADING CONCEPT BY IMPLIMENTING RUNNABLE INTERFACE
         Multithre3 bull1 = new Multithre3();
         Thread gun1 = new Thread(bull1);
         Multithre4 bull2 = new Multithre4();
         Thread gun2 = new Thread(bull2);
+
+        t1.start();
+        t2.start();
+        System.out.println(Thread.currentThread().getState());
         gun1.start();
         gun2.start();
+        System.out.println(gun1.getState());
     }
 }
