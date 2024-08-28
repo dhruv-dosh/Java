@@ -1,4 +1,4 @@
-// HERE WE IMPORT AND USE PACKAGES
+package Java;// HERE WE IMPORT AND USE PACKAGES
 import usingpackages.a25_java_UsingPack1; //IMPORTING PACKAGES
 import usingpackages.one.a25_java_UsingPack2; //IMPORTING PACKAGES
 
