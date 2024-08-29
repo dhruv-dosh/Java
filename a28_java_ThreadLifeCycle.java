@@ -22,7 +22,7 @@ public class a28_java_ThreadLifeCycle {
     NEW -> Instance of thread create which is not yet started by invoking start.
     RUNNABLE -> After invocation of start and before it is selected to be run by the scheduler.
     RUNNING -> After thread scheduler has selected it.
-    NON-RUNNABLE -> Thread alive but not eligible to run.(If thread is waiting for server
+    NON-RUNNABLE -> Thread alive but not eligible to run.(If thread is waiting for server)
                                                          (response or taking time for something)
     TERMINATED -> Run Method is exited.
 
@@ -50,7 +50,7 @@ public class a28_java_ThreadLifeCycle {
 
         Mythread obj2 = new Mythread();
         Thread gun = new Thread(obj2,"Doshi");
-        gun.start();
+        //gun.start();
         System.out.println("Id of this Thread is : "+gun.getId());//USING METHOD OF THREAD
         System.out.println("Name of given thread is : "+gun.getName());
         System.out.println(gun.getState()); // gives the state runnable,terminated,etc
