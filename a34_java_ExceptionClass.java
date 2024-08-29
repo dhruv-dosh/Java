@@ -56,6 +56,5 @@ public class a34_java_ExceptionClass {
             else{
                 System.out.println(arr[ind]/num);
             }
-
     }
 }
