@@ -3,7 +3,7 @@ package Java;
 public class a36_java_FinallyBlock {
     public static int greet(){
         try {
-            int a=4;
+            final int a=4; //can not be changed we can write final function too
             int b=0;
             int c=a/b;
             return c;
@@ -37,5 +37,6 @@ public class a36_java_FinallyBlock {
         finally statement will always work if there is any break statement or loop break
         we can also use try and finally only
          */
+
     }
 }
