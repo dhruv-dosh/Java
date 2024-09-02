@@ -8,6 +8,12 @@ interface DemoAno{
 interface DemoAno2{
     public void meth3();
 }
+class Dhruv implements DemoAno2{
+    @Override
+    public void meth3() {
+        System.out.println("hellow");
+    }
+}
 public class a48_java_lambdaExpression {
     public static void main(String[] args) {
         // IF WE WANT TO USE METHOD OF ANY INTERFACE ONLY ONE WE USE FOLLOWING ANONYMOUS CLASS
