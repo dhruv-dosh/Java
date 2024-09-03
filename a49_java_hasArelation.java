@@ -10,10 +10,10 @@ class Employee{
     }
 
     public void getName() {
-        System.out.println(name);;
+        System.out.println(name);
     }
 
-    public a50_java_hasA2 getEmp() {
+    public a50_java_hasA2 getEmp () {
         return emp;
     }
 }
