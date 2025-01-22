@@ -1,6 +1,6 @@
 package Java;
 public class a02_java_String {
-    public static void main(){
+    public static void main(String [] args){
         //String is a java class which is used as datatype
         String a = new String("dhruv");
         String b = new String();
