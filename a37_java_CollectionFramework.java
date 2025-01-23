@@ -10,10 +10,15 @@ public class a37_java_CollectionFramework {
 
         Collection in java is available as classes and interface.
         few commonly use collection in java are :-
-        1.Arraylist :- for variable size collection.
-        2.set :- for distinct collection.
-        3.stack :- last in first out.
-        4.hashmap :- key - value pair.
+        COLLECTIONS
+        1. List :- ArrayList, linkedList, Stack, Vector.
+        2. Set :- hashset, Enumset, LinkedHashset, TreeSet.
+        3. Queue :- ArrayDequeue, LinkedLlist, PriorityQueue.
+
+        MAP
+        1.HashMap.
+        2.TreeMap.
+        3.LinkedHashMap.
 
          */
     }
