@@ -269,6 +269,6 @@ public class pattern {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number of rows :");
         int a = sc.nextInt();
-        printPattern21(a);
+        // printPattern21(a);
     }
 }
