@@ -5,7 +5,7 @@ public class a02_java_String {
         String a = new String("dhruv");
         String b = new String();
         String d = "  dhruv  "; //but java provide us a feature to write string like this
-
+        //To Understand Immutability ( https://www.baeldung.com/java-string-immutable?utm_source=chatgpt.com )
 
         //HERE ARE SOME FUNCTIONS TO MANIPULATE STRINGS
         System.out.println(d.length());
