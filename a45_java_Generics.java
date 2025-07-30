@@ -3,6 +3,7 @@ package Java;
 import java.util.ArrayList;
 //THIS IS HOW YOU MADE YOUR CUSTOM GENERIC CLASS
 //HERE MyGener IS A GENERIC CLASS WHICH TAKE OTHER CLASS AS PARAMETER AND PERFORM METHODS ON THEM
+//Generics are a feature in Java that allow you to write classes, interfaces, and methods that work with any data type, while still ensuring type safety at compile time.
 class Mygener<T1,T2>{
     private T1 t1;
     private T2 t2;
