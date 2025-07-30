@@ -20,6 +20,13 @@ public class a48_java_lambdaExpression {
         /*
         WITH THE HELP OF ANONYMOUS CLASSES WE DON'T HAVE TO CREATE CLASS WHICH IMPLEMENTS INTERFACE FOR USE METHOD ONLY ONCE
          */
+        /*
+        A Lambda Expression is a short way to write a method — without needing to write a full class or method.
+
+        You can use it when:
+        You want to pass some logic as data
+        You are using an interface with only one method (called a Functional Interface)
+        */
         DemoAno obj = new DemoAno() {
             @Override
             public void meth1() {
