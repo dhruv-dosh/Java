@@ -4,6 +4,17 @@ interface  myinterface{
     void funcinter();
     //void kdlafn();// can not do this in functional interface
 }
+// 
+// import java.lang.annotation.*;
+
+// @Retention(RetentionPolicy.RUNTIME)   // Available at runtime
+// @Target(ElementType.METHOD)           // Can be applied on methods
+// public @interface MyAnnotation {
+//     String value() default "default"; // Optional element with default
+//     int count() default 1;            // Another optional element
+// }
+
+// 
 class Myphone extends Phone{
     @Override
     public void On() {
