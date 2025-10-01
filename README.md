@@ -115,3 +115,14 @@ This comprehensive guide covers all Java topics, structured for quick and effici
 | **`file handling`** | Reading from and writing to files. Involves I/O streams (`InputStream`/`OutputStream` for bytes, `Reader`/`Writer` for chars). |
 | **`bit manipulation`** | Operating directly on the binary representation (bits) of data using bitwise operators (`&`, `|`, `^`, `~`, `<<`, `>>`). |
 | **`heap and min heap`** | **Heap:** A complete binary tree that satisfies the heap property. **Min Heap:** Parent node value $\leq$ child node values (smallest element at the root). |
+
+
+*For In Depth MySQL DataBase Notes [MySQL](https://github.com/dhruv-dosh/MySQL_Relational_Database_Notes)*
+ 
+ *For Learning Spring Boot [Spring boot](https://github.com/dhruv-dosh/Spring_Java_Framework)*
+ 
+ *For Learning Docker [Docker](https://github.com/dhruv-dosh/Docker_Notes_And_Commands)*
+ 
+ *For Learning Jenkins [Jenkins](https://github.com/dhruv-dosh/Jenkins_Declarative_Pipeline_Setup)*
+
+*Created and maintained by [dhruv-doshi](https://github.com/dhruv-dosh)*
